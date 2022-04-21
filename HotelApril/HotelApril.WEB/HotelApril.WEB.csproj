@@ -9,7 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\HotelApril.BLL\HotelApril.BLL.csproj" />
+    <ProjectReference Include="..\HotelApril.DTO\HotelApril.DTO.csproj" />
   </ItemGroup>
 
 </Project>
